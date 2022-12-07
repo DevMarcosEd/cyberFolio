@@ -50,7 +50,7 @@
 .list {
     display: grid;
     justify-content: center;
-    grid: 100% / 1fr 1fr;
+    grid: 40px / 1fr 1fr;
     width: 50%;
 }
 
