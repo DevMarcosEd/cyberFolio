@@ -45,6 +45,7 @@
     align-items: flex-start;
     gap: 25px;
     padding-bottom: 25px;
+    min-height: 408px
 }
 
 .list {
