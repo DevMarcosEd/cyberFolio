@@ -27,12 +27,11 @@
 
 .content-skills {
     width: 100%;
-    max-width: 1080px;
+    max-width: 100%;
     flex-wrap: wrap;
     display: grid;
     grid: 100% / 1fr 1fr 1fr;
     gap: 20px;
-    border: 1px solid red;
     position: relative;
 }
 
@@ -43,7 +42,6 @@
     font-size: 36px;
     font-family: Blender;
     user-select: none;
-    border: 1px solid red;
 }
 
 .title-skills {
@@ -53,6 +51,13 @@
     padding-bottom: 40px;
     font-size: 60px;
     user-select: none;
+}
+
+@media only screen and (max-width: 750px) {
+    .content-skills {
+        display: flex;
+        gap: 20px;
+    }
 }
 
 @media only screen and (max-width: 500px) {

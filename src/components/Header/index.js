@@ -1,5 +1,6 @@
 import React from "react";
-import './header.css'
+import './style.css'
+
 import  {FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa'
 
 export default function Header() {

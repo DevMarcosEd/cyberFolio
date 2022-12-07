@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './projetos.css'
+import './style.css'
 
 export default function Projetos() {
     
