@@ -1,0 +1,134 @@
+.container {
+    width: 100%;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    gap: 10px;
+    position: absolute;
+    width: 100%;
+    align-items: flex-end;
+    margin-bottom: 80px;
+
+}
+
+.github-link,
+.linkedin-link,
+.instagram-link {
+    color: #fcee0a;
+    transition: all 0.4s;
+    margin-right: 50px;
+    margin-top: 45px;
+}
+
+.github-link:hover,
+.linkedin-link:hover,
+.instagram-link:hover {
+    transform: scale(1.2);
+}
+
+.content-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.perfil {
+    max-width: 100%;
+    background-image: url('../../assets/images/perfil2.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-top: -40px;
+    margin-bottom: 25px;
+}
+
+.content-header .text {
+    font-family: Blender;
+    flex-wrap: wrap;
+    color: #FCEE0A;
+    font-size: 36px;
+    user-select: none;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .container {
+        width: 100%;
+        background-size: cover;
+        height: 70vh;
+        display: block;
+        background-color: #000;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content-header .text {
+        font-family: Blender;
+        flex-wrap: nowrap;
+        color: #FCEE0A;
+        font-size: 18px;
+        user-select: none;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 35px;
+        gap: 15px;
+        position: relative;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .github-link,
+    .linkedin-link,
+    .instagram-link {
+        color: #fcee0a;
+        transition: all 0.4s;
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+
+    .perfil {
+        max-width: 100%;
+        background-image: url('../../assets/images/perfil2.jpg');
+        background-size: cover;
+        width: 250px;
+        height: 250px;
+        border-radius: 150px;
+        margin-top: -40px;
+        margin-bottom: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .container {
+        height: 80vh;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .container {
+        height: 80vh;
+    }
+
+}

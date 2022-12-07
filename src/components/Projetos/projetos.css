@@ -1,0 +1,143 @@
+.projects {
+    background-color: #FCEE0A;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line-black-projects {
+    background-image: url(../../assets/images/line-black.svg);
+    background-repeat: repeat-x;
+    height: 40px;
+    width: 100%;
+}
+
+.title-projects {
+    font-family: Blender;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 60px;
+    color: black;
+}
+
+.content-simple-line {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.simple-line-separate {
+    width: 1310px;
+    margin-bottom: 25px;
+    height: 1px;
+    border: thin solid #DED207;
+}
+
+.content-projects {
+    max-width: 1310px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    padding-bottom: 25px;
+}
+
+.list {
+    display: grid;
+    justify-content: center;
+    grid: 100% / 1fr 1fr;
+    width: 50%;
+}
+
+.list p {
+    cursor: pointer;
+    font-family: Blender;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 272px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+
+.active {
+    background-color: black;
+    color: #FCEE0A;
+}
+
+.about-projects {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-for-projects {
+    width: 100%;
+}
+
+.img-for-projects img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #DED207;
+}
+
+
+.title-about-img {
+    font-family: Blender;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: -.0075em;
+    line-height: 1;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.text-about-img {
+    font-family: Blender;
+    font-size: 20px;
+    letter-spacing: -.0075em;
+    text-align: justify;
+    color: rgb(31, 31, 31);
+}
+
+@media only screen and (max-width: 500px) {
+
+    .content-projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-projects {
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
+
+    .list {
+        display: block;
+        width: 100%;
+    }
+
+    .list p {
+        line-height: 24px;
+        max-width: 100%;
+        padding: 8px 16px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .about-projects {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+}
