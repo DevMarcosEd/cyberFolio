@@ -34,12 +34,6 @@ export default function Projetos() {
         },
         { 
             id: 4,
-            titulo: 'Recent Films',
-            texto: 'Consumindo uma api de filmes utilizando React js + axios com apoio do curso Fabrica de Aplicativos',
-            class: ''
-        },
-        { 
-            id: 5,
             titulo: 'Back-end sistema de garçom',
             texto: 'Sistema de pedidos para anotar pedidos para restaurante feito no evento O poder do javascript, neste projeto utilizei typescript confesso que foi minha primeira vez e achei muito interessante.',
             img: require('../../assets/images/restrant.png'),

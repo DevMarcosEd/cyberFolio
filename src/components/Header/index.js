@@ -18,7 +18,7 @@ export default function Header() {
                     </a>
                  </div>
                  <div className="content-header">
-                    <img className="perfil" alt="perfil"/>
+                    <image className="perfil"></image>
                     <div className="text">Oi, me chamo Marcos Eduardo</div>
                     <div className="text">desenvolvedor web</div>
                  </div>
