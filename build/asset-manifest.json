@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0a8eead.css",
+    "main.js": "/static/js/main.96ae825f.js",
+    "static/media/cyberpunk.png": "/static/media/cyberpunk.c602ac5cfc11e8689f6b.png",
+    "static/media/restrant.png": "/static/media/restrant.143c491f26ae416270dd.png",
+    "static/media/perfil2.jpg": "/static/media/perfil2.2c8c86c203e971ece5c1.jpg",
+    "static/media/Blender-Pro-Bold.otf": "/static/media/Blender-Pro-Bold.2f5cdf145c82f530eff1.otf",
+    "static/media/ntoApi.png": "/static/media/ntoApi.27c6a02cdd5809d9984c.png",
+    "static/media/blogScript.png": "/static/media/blogScript.022387aade4b652103c3.png",
+    "static/media/guiaPerguntas.png": "/static/media/guiaPerguntas.8c701bfb98322b5d10f2.png",
+    "static/media/line-black.svg": "/static/media/line-black.52ddb28d03735fcd8a68.svg",
+    "static/media/top-line.svg": "/static/media/top-line.9da151c9d008e2c34bd4.svg",
+    "index.html": "/index.html",
+    "main.e0a8eead.css.map": "/static/css/main.e0a8eead.css.map",
+    "main.96ae825f.js.map": "/static/js/main.96ae825f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0a8eead.css",
+    "static/js/main.96ae825f.js"
+  ]
+}
