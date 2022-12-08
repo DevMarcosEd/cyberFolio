@@ -12,12 +12,11 @@
     display: flex;
     flex-direction: column;
     font-size: 35px;
-    gap: 10px;
+    gap: 25px;
     position: absolute;
     width: 100%;
     align-items: flex-end;
     margin-bottom: 80px;
-
 }
 
 .github-link,
@@ -25,8 +24,7 @@
 .instagram-link {
     color: #fcee0a;
     transition: all 0.4s;
-    margin-right: 50px;
-    margin-top: 45px;
+    margin-right: 15px;
 }
 
 .github-link:hover,
@@ -92,6 +90,7 @@
         width: 100%;
         align-items: center;
         margin-bottom: 0px;
+        padding-top: 10px;
     }
 
     .github-link,
